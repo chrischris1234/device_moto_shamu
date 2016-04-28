@@ -187,8 +187,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     fmas.spkr_sgain=0
 
 # Camera
-PRODUCT_PACKAGES += \
-    Snap
 
 PRODUCT_PACKAGES += \
     libqomx_core \
@@ -197,7 +195,8 @@ PRODUCT_PACKAGES += \
     libmmjpeg_interface \
     camera.msm8084 \
     mm-jpeg-interface-test \
-    mm-qcamera-app
+    mm-qcamera-app \
+    SnapdragonCamera
 
 PRODUCT_PACKAGES += \
     libion
